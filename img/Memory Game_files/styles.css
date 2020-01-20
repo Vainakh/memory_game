@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: blue;
+}
+
+.memory-game {
+    border: 10px solid black;
+    width: 640px;
+    height: 640px;
+}
+
+.memory-card {
+    border: 5px solid black;
+}
+
+.front-face, 
+.back-face {
+    border: 5px solid black;
+}
